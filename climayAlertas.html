@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+     <!--Scrits necesarios-->
+    <script src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/clima.js"></script>
+    <script type="text/javascript" src="js/alertas.js"></script>
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!--Bootstrap-->
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+    <title>Clima</title>
+  </head>
+  <body>
+  <!--Inicio NavBar-->
+  <nav class="navbar navbar-expand bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Gestion de Plantas</a>
+       <ul class="navbar-nav d-flex mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="registrarPlanta.html">Cargar Planta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="registrarFamilia.html">Cargar Familia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="crearExperimento.html">Iniciar Experimento</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="verCatalogo.html">Ver Catálogo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="verSucursales.html">Ver Sucursales</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="climayAlertas.html">Clima y Alertas</a>
+        </li>
+      </ul>
+  </div>
+</nav>
+<div class="container"  align="center">
+    <h1 class="col-auto p-5">Clima y Alertas Meteorologicas</h1>
+
+    <h3 class="col-auto p-5 text-muted">Clima</h3>
+
+    <div class="col-auto" id="clima">
+        <div class="form-group ">
+            <div id="tiempoActual"  ></div>
+        </div>
+    </div>
+    
+    <h3 class="col-auto p-5 text-muted"> Alertas Meteorologicas</h3>
+
+    <div class="tab-pane p-3" id="alertas">
+        <div class="form-group">
+            <div id="divAlertas"></div>	
+    </div>
+</div>
+ <!--Fin NavBar-->
+    
+  </body><!--Script Bootstrap-->
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <!--Script Bootstrap-->
+</html>

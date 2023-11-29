@@ -1,0 +1,28 @@
+var jsonObject = {
+    "plantas": [
+    {
+        "id": "001",
+        "nombre": "Cactus",
+        "foto": "imagenes/cactus.jpg",
+        "Descripcion": "cactus"
+    },
+    {
+        "id": "002",
+        "nombre": "Girasoles",
+        "foto": "imagenes/girasoles.jpg",
+        "Descripcion": "girasoles"
+    },
+    {
+        "id": "003",
+        "nombre": "Limoneros",
+        "foto":"imagenes/limoneros.jpg",
+        "Descripcion": "limoneros"
+    },
+    {
+        "id": "004",
+        "nombre": "Rosas",
+        "foto": "imagenes/rosaroja.jpg",
+        "Descripcion": "rosa roja"
+    }
+]
+}

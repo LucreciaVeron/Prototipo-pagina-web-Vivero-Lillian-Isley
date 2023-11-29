@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/formulario.css">
+        <!--Bootstrap-->
+        <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+        crossorigin="anonymous"
+      />
+      <!--Bootstrap-->
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+    <title>Experimento</title>
+  </head>
+
+<body>
+
+<!--Inicio NavBar-->
+<nav class="navbar navbar-expand bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Gestion de Plantas</a>
+       <ul class="navbar-nav d-flex mb-2 mb-lg-0 ">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="registrarPlanta.html">Cargar Planta</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="registrarFamilia.html">Cargar Familia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="crearExperimento.html">Iniciar Experimento</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="verCatalogo.html">Ver Catálogo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="verSucursales.html">Ver Sucursales</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="climayAlertas.html">Clima y Alertas</a>
+        </li>
+      </ul>
+  </div>
+</nav>
+<!--Fin NavBar-->
+
+<h1 class="titulo">Crear experimento</h1>
+<div class="formulario" >
+<form>
+  <h3>Ingresar datos</h3>
+
+ 
+  <label> Planta:
+    <select class="seleccionar" name="tipoSuelo">
+      <option>Rosa1</option>
+      <option>Cactus1</option>
+      <option>Girasol1</option>
+      <option>Limonero1</option>
+    </select></label> 
+
+    <label> Jardinero:
+      <select class="seleccionar" name="tipoSuelo">
+        <option>Jardinero1</option>
+        <option>Jardinero2</option>
+        <option>Jardinero3</option>
+      </select></label> 
+
+  <input class="form-control" name="ID" id="ID" placeholder="ID Experimento" required></br>
+
+  <input class="form-control" name="Fertilizante" id="fertilizante" placeholder="Fertilizante"required></br>
+
+  <input class="form-control" name="Observaciones" id="Observaciones" placeholder="Observaciones" required></br>
+
+
+  <form action="" target="_blank">
+    <input class="boton" type="submit" value="Registrar experimento"></br>
+    
+   </form>
+
+</form>
+</div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+.card{
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.text1{
+    font-size: 13;
+    color: #cbcbcb;
+}
+
+.info{
+    line-height: 15px;
+}
+
+.cost span{
+    color: #a3a3a3;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+ul{
+    display: inline-flex;
+    overflow: auto;
+}
+
+ul > li{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
